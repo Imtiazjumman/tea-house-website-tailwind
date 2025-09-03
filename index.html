@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
 
@@ -29,12 +29,23 @@
             colors: {
               clifford: "#da373d",
             },
+            fontFamily: {
+              worksans: ["Work Sans", "sans-serif"],
+            },
           },
         },
       };
     </script>
+    <!-- Custom font class -->
+    <style>
+      @layer base {
+        .font-worksans {
+          font-family: "Work Sans", sans-serif;
+        }
+      }
+    </style>
   </head>
-  <body>
+  <body class="font-worksans">
     <!-- Main content -->
     <main class="max-w-screen-xl mx-auto px-12 lg:px-20">
       <!-- Header Part -->
